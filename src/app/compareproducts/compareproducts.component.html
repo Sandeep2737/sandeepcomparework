@@ -1,0 +1,40 @@
+<p>compareproducts works!</p>
+<table>
+    <tr>
+        <th>ProductID</th>
+        <th>ProductCode</th>
+        <th>ProductName</th>
+        
+        <th>ProductDescription</th>
+       
+        <th>Brand</th>
+        <th>Quantity</th>
+        <th>ProductPrice</th>
+        <th>InStock</th>
+        <th>CategoryID</th> 
+        <th>CreatedDate</th>
+        <th>ModifiedBy</th>
+        <th>ModifiedDate</th>
+
+        
+        
+    </tr>
+    <tr *ngFor="let p of products;let i=index">
+        <td>{{p.ProductID}}</td>
+        <td>{{p.ProductCode}}</td>
+        <td>{{p.ProductName}}</td>
+        
+        <td>{{p.ProductDescription}}</td>
+       
+        <td>{{p.Brand}}</td>
+        <td>{{p.Quantity}}</td>
+        <td>{{p.ProductPrice}}</td>
+        <td>{{p.InStock}}</td>
+        <td>{{p.CategoryID}}</td>
+        <td>{{p.CreatedDate}}</td>
+        <td>{{p.ModifiedBy}</td>
+        <td>{{p.ModifiedDate}}</td>
+       
+    </tr>
+</table>
+
